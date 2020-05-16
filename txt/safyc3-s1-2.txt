@@ -1,0 +1,6 @@
+CA.PA    -0.178347
+OR.PA     0.063853
+AMZN      0.311459
+ALO.PA    0.059510
+VIV.PA   -0.037219
+dtype: float64

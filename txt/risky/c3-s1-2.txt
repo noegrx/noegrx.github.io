@@ -1,0 +1,6 @@
+RNO.PA   -0.341156
+FDJ.PA    0.308948
+FP.PA    -0.082076
+VK.PA    -0.519555
+AIR.PA   -0.048152
+dtype: float64

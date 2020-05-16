@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Portfolio Frontpage</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/customize.css">
+  </head>
+
+  <style>
+    .slider {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 500px;
+        margin: auto;
+        overflow: hidden;
+    }
+    .slider-item {
+        display: block;
+        width: 500px;
+        animation: glisse 10s infinite;
+    }
+    .slider-item img {
+        width: 500px;
+    }
+
+    @keyframes glisse {
+        0% {
+            transform: translateX(0);
+        }
+        10% {
+            transform: translateX(0);
+        }
+        33% {
+            transform: translateX(-500px);
+        }
+        43% {
+            transform: translateX(-500px);
+        }
+        66% {
+            transform: translateX(-1000px);
+        }
+        76% {
+            transform: translateX(-1000px);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+    </style>
+
+  <body>
+    <section>
+      <h1><img class="logo" src="img/logo.svg"> AlpacInc</h1>
+      <h2>Noé GIROUX, Lisa BLED, Aurore DURLET</h2>
+    </section>
+
+    <figure class="center">
+          <div class="slider">
+                <div class="slider-item">
+                    <img class="image" src="img/image.jpg">
+                </div>
+                <div class="slider-item">
+                    <img class="image" src="img/image2.jpg">
+                </div>
+                <div class="slider-item">
+                    <img class="image" src="img/image3.jpg">
+                </div>
+        </div>
+    </figure>
+
+    <section class="raw-center">
+      <article class="column">
+        <a class="button" href="safy.html">World Legacy</a>
+        <iframe src="img/safy/c2-s18-1.html"></iframe>
+        <section style="text-align:center;">
+          <p>Carrefour : <strong>100</strong></p>
+          <p>L'Oréal : <strong>95</strong></p>
+          <p>Amazon : <strong>95</strong></p>
+          <p>Alstom : <strong>110</strong></p>
+          <p>Vivendi : <strong>90</strong></p>
+        </section>
+      </article>
+
+      <article class="column">
+        <a class="button" href="risky.html">Euro Strat Future</a>
+        <iframe src="img/risky/c2-s18-1.html"></iframe>
+        <section style="text-align:center;">
+          <p>Renaud : <strong>195</strong></p>
+          <p>FDJ : <strong>160</strong></p>
+          <p>Total : <strong>135</strong></p>
+          <p>Vallourec : <strong>210</strong></p>
+          <p>Airbus : <strong>200</strong></p>
+        </section>
+      </article>
+    </section>
+  </body>
+</html>
