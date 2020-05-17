@@ -1,0 +1,40 @@
+.slider {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 500px;
+    margin: auto;
+    overflow: hidden;
+}
+.slider-item {
+    display: block;
+    width: 500px;
+    animation: glisse 10s infinite;
+}
+.slider-item img {
+    width: 500px;
+}
+
+@keyframes glisse {
+    0% {
+        transform: translateX(0);
+    }
+    10% {
+        transform: translateX(0);
+    }
+    33% {
+        transform: translateX(-500px);
+    }
+    43% {
+        transform: translateX(-500px);
+    }
+    66% {
+        transform: translateX(-1000px);
+    }
+    76% {
+        transform: translateX(-1000px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
